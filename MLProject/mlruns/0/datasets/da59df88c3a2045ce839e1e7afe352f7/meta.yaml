@@ -1,0 +1,12 @@
+digest: a4cb2858
+name: dataset
+profile: '{"num_rows": 800, "num_elements": 6400}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Age", "required": true},
+  {"type": "long", "name": "Gender", "required": true}, {"type": "double", "name":
+  "Tenure", "required": true}, {"type": "double", "name": "Balance", "required": true},
+  {"type": "double", "name": "NumOfProducts", "required": true}, {"type": "long",
+  "name": "HasCrCard", "required": true}, {"type": "long", "name": "IsActiveMember",
+  "required": true}, {"type": "double", "name": "EstimatedSalary", "required": true}]}'
+source: '{"tags": {"mlflow.user": "User", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "08043b7fbc15487be2a7d5bc3f0f4764959a6e30"}}'
+source_type: code
